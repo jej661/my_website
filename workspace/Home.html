@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 50px;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+    color: black;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.topnav {
+    color: white;
+    text-align:center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Juan's Web Page</h1>
+</div>
+
+<div class="topnav">
+  <a href="Home.html">Home</a>
+  <a href="Portfolio.html">Portfolio</a>
+  <a href="Social.html">Social</a>
+  <a href="Extras.html">Extras</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2><center>Market Hog 2k18</center></h2>
+      <h5><center>June 1<sup>st</sup>, 2018 - September 19<sup>th</sup>, 2018</center></h5>
+      <center><img src="Home/Mamas.JPG" alt=":(" width="750" height="333"></center>
+      <p><center>Picture taken on August 21<sup>st</sup>, 2018 </center></p>
+      <p>Mamas is a cross bred swine, that as of August 28<sup>th</sup>, 2018 weighs in at 192 pounds. My goal is to have her at the very least 215 pounds by fair time. I've been feeding her CSS feed, vitamin B Comlex, gogurt, calves milk, fat, steamed rolled oat groats, lean maximizer, and champion drive. I plan to sell my hog to buyer number 9 for about $8 a pound as well as collect my sponsorship money. Other than making money, I did this project to have a eye opening experience.</p>
+    </div>
+    <div class="card">
+      <h2><center>Poultry 2k18</center></h2>
+      <h5><center>August 2<sup>nd</sup>, 2018 - Sep 19<sup>th</sup>, 2018</center></h5>
+      <center><img src="Home/Poultry.JPG" alt=":(" width="400" height="350"></center>
+      <p><center>Picture taken on August 15<sup>th</sup>, 2018</center></p>
+      <p>This project has taught me what it is like to be a mom, becasue I am. I've raised these chicks since they were 1 day old. I've fed them, watered them, cleaned after them, etc. I donated 3 of them to Isis due to a tragic death of her market hog, I also sold 3 to Danny so he can enter the fair as an exibitor. On this project I will not make nearly the same amount of money as with the hog, but I did it because I really wanted to know what it was like to be resposible for the life of another live animal.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>FaZe Clan takes 1<sup>st</sup> at CWL Pro League Stage 1</h2>
+       <center><img src="Home/FaZe.JPG" alt=":(" width="250" height="200"></center>
+      <p>Slicing through the Stage 1 Playoffs Losers Bracket, FaZe Clan reset the braket and defeated OpTic Gaming to win their first championship since 2015. The roster consisted of "ZooMaa", "Preistahh", Attach", and "Replays". They took home $212,500.</p>
+    </div>
+    <div class="card">
+      <h3>FaZe Clan Member, Doug "Censor" Martin Ends his Relationship with Supermodel Yanete Garcia</h3>
+    <center><img src="Home/Censor.JPG" alt=":(" width="250" height="200"></center>  
+     <p>In his video, Censor explains as to why he chose to play Call of Duty instead of being with his supermodel exgirlfriend. It all comes down to him being able to pursue his dream of competing in profesional COD.</p>
+    </div>
+    <div class="topnav">
+      <h3>Follow Me</h3>
+      <a href="Twitter.html">Twitter</a> 
+      <a href="Snapchat.html">Snapchat</a>
+     <a href="Contact.html">Contact</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
