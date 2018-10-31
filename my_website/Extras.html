@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 50px;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+    color: black;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.topnav {
+    color: white;
+    text-align:center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Extras</h1>
+</div>
+
+<div class="topnav">
+  <a href="Home.html">Home</a>
+  <a href="Portfolio.html">Portfolio</a>
+  <a href="Social.html">Social</a>
+  <a href="Extras.html">Extras</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2><center>"17"</center></h2>
+      <h5><center>Released Date: August 25<sup>th</sup>, 2017</center></h5>
+      <center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLwjYFBdI3ptjLZblzjDrYh_5Bz0lch0R7&index=2" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+    </div>
+    <div class="card">
+      <h2><center>"2014 Forest Hills Drive"</center></h2>
+      <h5><center>Released Date: December 9<sup>th</sup>, 2014</center></h5>
+      <center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLGykj19oxia9__a81rqkN5AAIIoGjKHtx" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>     
+    </div>
+     <div class="card">
+      <h2><center>"Legend"</center></h2>
+      <h5><center>Released Date: May 8<sup>th</sup>, 1984</center></h5>
+      <center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL_ejXIzP7qOCGCodJyyRF_7GctAn0DUAW" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>     
+    </div>
+  </div>
+  <div class="card">
+    <center><h2>Bunny</h2></center> 
+     <center><p>(\ /)</p></center>
+      <center><p>(^.^)</p></center>
+      <center><p>(^)(^)</p></center>
+    </div>
+      <div class="card">
+    <center><h2>Bunny</h2></center> 
+     <center><p>(\ /)</p></center>
+      <center><p>(^.^)</p></center>
+      <center><p>(^)(^)</p></center>
+    </div>
+      <div class="card">
+    <center><h2>Bunny</h2></center> 
+     <center><p>(\ /)</p></center>
+      <center><p>(^.^)</p></center>
+      <center><p>(^)(^)</p></center>
+    </div>
+      <div class="card">
+    <center><h2>Bunny</h2></center> 
+     <center><p>(\ /)</p></center>
+      <center><p>(^.^)</p></center>
+      <center><p>(^)(^)</p></center>
+    </div>
+      <div class="card">
+    <center><h2>Bunny</h2></center> 
+     <center><p>(\ /)</p></center>
+      <center><p>(^.^)</p></center>
+      <center><p>(^)(^)</p></center>
+    </div>
+      <div class="card">
+    <center><h2>Bunny</h2></center> 
+     <center><p>(\ /)</p></center>
+      <center><p>(^.^)</p></center>
+      <center><p>(^)(^)</p></center>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
