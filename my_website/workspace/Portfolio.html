@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 50px;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+    color: black;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.topnav {
+    color: white;
+    text-align:center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Portfolio</h1>
+</div>
+
+<div class="topnav">
+  <a href="Home.html">Home</a>
+  <a href="Portfolio.html">Portfolio</a>
+  <a href="Social.html">Social</a>
+  <a href="Extras.html">Extras</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2><center>Testing Scores</center></h2>
+      <h5><center>ACT/SAT</center></h5>
+      <center><img src="Portfolio/ACT.JPG" alt=":(" width="350" height="450"></center>
+      <center><img src="Portfolio/SAT.JPG" alt=":(" width="350" height="450"></center>
+    </div>
+    <div class="card">
+      <h2><center>Course History</center></h2>
+      <center><img src="Portfolio/Grades1.PNG" alt=":(" width="450" height="400"></center>   
+      <center><img src="Portfolio/Grades2.PNG" alt=":(" width="450" height="400"></center>
+      <center><img src="Portfolio/Grades3.PNG" alt=":(" width="450" height="400"></center>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2><center><a href="https://scratch.mit.edu/projects/249905708/#fullscreen">Scratch Game</a></center></h2>
+       <center><img src="Portfolio/Soccer1.PNG" alt=":(" width="350" height="350"></center>
+    </div>
+    <div class="card">
+      <h3>Faze Censor retiring?</h3>
+    <center><img src="Home/Censor.JPG" alt=":(" width="250" height="200"></center>  
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
